@@ -1,0 +1,104 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\Lab5.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc\m2560def.inc</FILE>
+  <FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\delay.inc</FILE>
+  <FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\lcd.inc</FILE>
+  <FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\keyboard.inc</FILE>
+  <FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\tarning.inc</FILE>
+  <FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\stats.inc</FILE>
+  <FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\monitor.inc</FILE>
+  <FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\stat_data.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\Debug\lab5.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lab5.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lab5.map</FILE>
+  <FILE>lab5.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\Lab5.asm</FILE><LINE>83</LINE></init>
+  <delay_1_micros><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\delay.inc</FILE><LINE>16</LINE></delay_1_micros>
+  <delay_micros><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\delay.inc</FILE><LINE>34</LINE></delay_micros>
+  <delay_ms><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\delay.inc</FILE><LINE>60</LINE></delay_ms>
+  <loop_dms><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\delay.inc</FILE><LINE>62</LINE></loop_dms>
+  <loop_dms2><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\delay.inc</FILE><LINE>64</LINE></loop_dms2>
+  <delay_1_s><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\delay.inc</FILE><LINE>82</LINE></delay_1_s>
+  <loop_1s><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\delay.inc</FILE><LINE>84</LINE></loop_1s>
+  <delay_s><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\delay.inc</FILE><LINE>100</LINE></delay_s>
+  <loop_ds><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\delay.inc</FILE><LINE>102</LINE></loop_ds>
+  <loop_ds2><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\delay.inc</FILE><LINE>104</LINE></loop_ds2>
+  <chars><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\lcd.inc</FILE><LINE>24</LINE></chars>
+  <lcd_init><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\lcd.inc</FILE><LINE>142</LINE></lcd_init>
+  <lcd_write_byte><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\lcd.inc</FILE><LINE>224</LINE></lcd_write_byte>
+  <lcd_write_string><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\lcd.inc</FILE><LINE>164</LINE></lcd_write_string>
+  <iterate_str><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\lcd.inc</FILE><LINE>165</LINE></iterate_str>
+  <end_of_str><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\lcd.inc</FILE><LINE>174</LINE></end_of_str>
+  <lcd_write_char><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\lcd.inc</FILE><LINE>188</LINE></lcd_write_char>
+  <mask_bit><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\lcd.inc</FILE><LINE>228</LINE></mask_bit>
+  <bit_is_1><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\lcd.inc</FILE><LINE>235</LINE></bit_is_1>
+  <write_to_lcd><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\lcd.inc</FILE><LINE>237</LINE></write_to_lcd>
+  <lcd_clear><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\lcd.inc</FILE><LINE>255</LINE></lcd_clear>
+  <loop><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\lcd.inc</FILE><LINE>257</LINE></loop>
+  <keys><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\keyboard.inc</FILE><LINE>29</LINE></keys>
+  <read_keyboard><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\keyboard.inc</FILE><LINE>49</LINE></read_keyboard>
+  <return_key><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\keyboard.inc</FILE><LINE>125</LINE></return_key>
+  <convert_to_ASCII><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\keyboard.inc</FILE><LINE>133</LINE></convert_to_ASCII>
+  <rolling_str><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\tarning.inc</FILE><LINE>11</LINE></rolling_str>
+  <value_str><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\tarning.inc</FILE><LINE>13</LINE></value_str>
+  <keyboard_input_loop><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\tarning.inc</FILE><LINE>21</LINE></keyboard_input_loop>
+  <roll_dice><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\tarning.inc</FILE><LINE>41</LINE></roll_dice>
+  <test><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\tarning.inc</FILE><LINE>43</LINE></test>
+  <roll><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\tarning.inc</FILE><LINE>50</LINE></roll>
+  <clearstring><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\stats.inc</FILE><LINE>10</LINE></clearstring>
+  <totalstring><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\stats.inc</FILE><LINE>12</LINE></totalstring>
+  <countones><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\stats.inc</FILE><LINE>14</LINE></countones>
+  <counttwos><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\stats.inc</FILE><LINE>16</LINE></counttwos>
+  <countthrees><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\stats.inc</FILE><LINE>18</LINE></countthrees>
+  <countfours><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\stats.inc</FILE><LINE>20</LINE></countfours>
+  <countfives><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\stats.inc</FILE><LINE>22</LINE></countfives>
+  <countsixs><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\stats.inc</FILE><LINE>24</LINE></countsixs>
+  <init_stat><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\stats.inc</FILE><LINE>29</LINE></init_stat>
+  <clear_stat><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\stat_data.inc</FILE><LINE>41</LINE></clear_stat>
+  <hexconv><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\stats.inc</FILE><LINE>35</LINE></hexconv>
+  <printhex><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\stats.inc</FILE><LINE>36</LINE></printhex>
+  <showstat><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\stats.inc</FILE><LINE>58</LINE></showstat>
+  <get_stat><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\stat_data.inc</FILE><LINE>34</LINE></get_stat>
+  <clearstat><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\stats.inc</FILE><LINE>111</LINE></clearstat>
+  <monitorstr><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\monitor.inc</FILE><LINE>7</LINE></monitorstr>
+  <init_monitor><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\monitor.inc</FILE><LINE>10</LINE></init_monitor>
+  <moni_read_keyboard><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\monitor.inc</FILE><LINE>14</LINE></moni_read_keyboard>
+  <monireadquit><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\monitor.inc</FILE><LINE>30</LINE></monireadquit>
+  <moni_akey><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\monitor.inc</FILE><LINE>24</LINE></moni_akey>
+  <moni_print_address><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\monitor.inc</FILE><LINE>33</LINE></moni_print_address>
+  <monitor><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\monitor.inc</FILE><LINE>49</LINE></monitor>
+  <moni_next><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\monitor.inc</FILE><LINE>55</LINE></moni_next>
+  <moniquit><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\monitor.inc</FILE><LINE>79</LINE></moniquit>
+  <moni_more><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\monitor.inc</FILE><LINE>72</LINE></moni_more>
+  <space><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\stat_data.inc</FILE><LINE>17</LINE></space>
+  <store_stat><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\stat_data.inc</FILE><LINE>20</LINE></store_stat>
+  <clear_loop><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\stat_data.inc</FILE><LINE>47</LINE></clear_loop>
+  <init_pins><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\Lab5.asm</FILE><LINE>96</LINE></init_pins>
+  <init_pins_led><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\Lab5.asm</FILE><LINE>121</LINE></init_pins_led>
+  <main><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\Lab5.asm</FILE><LINE>132</LINE></main>
+  <welcome_str><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\Lab5.asm</FILE><LINE>134</LINE></welcome_str>
+  <instruction_str><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\Lab5.asm</FILE><LINE>139</LINE></instruction_str>
+  <keyboard_loop><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\Lab5.asm</FILE><LINE>163</LINE></keyboard_loop>
+  <roll_the_dice><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\Lab5.asm</FILE><LINE>144</LINE></roll_the_dice>
+  <show_stat><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\Lab5.asm</FILE><LINE>150</LINE></show_stat>
+  <clear_stat_data><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\Lab5.asm</FILE><LINE>155</LINE></clear_stat_data>
+  <show_monitor><FILE>C:\Users\Linus\Desktop\Inbyggda system\Lab5\lab5\lab5\Lab5.asm</FILE><LINE>160</LINE></show_monitor>
+ </LABELS>
+</ASSEMBLER_INFO>
